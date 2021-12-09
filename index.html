@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="./css/style.css">
+<link href="http://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<title>Responsive Navigation Bar - W3jar.Com</title>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
+
+<div class="container">
+    <div class="logo">
+        <a href="#"><img src="./images/logo1.png" alt="logo"></a>
+    </div>
+<div class="navbar">
+
+<div class="icon-bar" onclick="Show()">
+    <i></i>
+    <i></i>
+    <i></i>
+</div>
+
+<ul id="nav-lists">
+    <li class="close"><span onclick="Hide()">×</span></li>
+    <li>
+        <img class="gif" src="./images/logo_grass.gif" onmouseenter="this.src ='./images/logo_grass.gif';" onmouseout="this.src = './images/logo_grass.gif';" alt=""><a href="#home"><span>Home</span> </a>
+    </li>
+    <li>
+        <img class="gif"  src="./images/community_steve.gif" onmouseenter="this.src ='./images/community_steve.gif';" onmouseout="this.src = './images/community_steve.gif';" alt=""><a href="#Community">Community</a>
+    </li>
+    <li>
+        <img class="gif" src="./images/support_golem.gif" onmouseenter="this.src ='./images/support_golem.gif';" onmouseout="this.src = './images/support_golem.gif';" alt=""> <a href="#games">About</a>
+    </li>
+    <li>
+        <img class="gif"  src="./images/menu_store.webp" onmouseenter="this.src ='./images/menu_chest.webp';" onmouseout="this.src = './images/menu_chest.webp';" alt=""><a href="#versions">Merch</a>
+    </li>
+</ul>
+
+</div>
+</div>
+
+  <section class="home " >
+    
+      <div class="home_content ">
+        <h1>THE WORLD IS YOURS FOR THE MAKING</h1>
+        <p>Prepare for an adventure of limitless possibilities as you build, mine, battle mobs, and explore the ever-changing Minecraft landscape.</p>
+         <button class="neons">Learn More</button>
+  </section>
+  
+
+  <section class="games">
+    <div class="game_heading">
+        <h1>Explore the World of Minecraft</h1>
+ 
+        <p>
+            Minecraft offers nine different editions to choose from. Each version is packed with it's own unique feature while mantaining the classis feel of Minecraft.
+        <p>
+            
+            <div class="card-carousel">
+                <div class="my-card"><img src="./images/caves1-prev.jpg" alt=""></div>
+                <div class="my-card"><img src="./images/java-prev (1).jpg" alt=""></div>
+                <div class="my-card"><img src="./images/dungeon_prev (1).jpg" alt=""></div>
+                <div class="my-card"><img src="./images/education-prev (1).webp" alt=""></div>
+                <div class="my-card"><img src="./images/caves2-prev.jpg" alt=""></div>
+              </div>
+    </div>
+  </section>
+ 
+  <section class="how">
+      <div class="heading">
+        <h1>Why Minecraft is the best?</h1>
+
+        <div class="howtype">
+            <p>Choose from multiple game-modes like <span class="typed-text"></span><span class="cursor">&nbsp; </span>designed specifically to player's liking</p>            
+          </div>
+          <div class="photo-text card1">
+            <img src="./images/survival-prev.webp" alt="">
+            <div class="info ">
+                <h1>Survive the night</h1>
+                <p>It’s always best to avoid the unpredictable by distancing yourself from wandering mobs—you never know what’ll happen if they get too close!</p>
+            </div>
+        </div>
+        <div class="photo-text card2">   
+            <div class="info ">
+                <h1>Get creative</h1>
+                <p>Discover all the versatile ways dust from the Redstone ore can be used to enhance your creations, bring them to life, or give them some bang.</p>
+            </div>
+            <img src="./images/creative-prev.webp" alt="">
+        </div>
+        <div class="photo-text card3">  
+            <img  src="./images/multiplayer-prev.webp" alt=""> 
+            <div class="info ">
+                <h1>Play with friends!</h1>
+                <p>make a server play with friends engage in farming, PvP's, survival, build battles. Relax and chill!  here with friends</p>
+            </div>
+        </div>
+      </div>
+      
+      
+       
+  </section>
+</body>
+<section class="end">
+    <div class="endpage">
+        <div class="end-heading">
+ 
+
+
+              <h1>Join Minecraft today
+              </h1>
+              <p>With over <span>238 million</span> active users, according to Mojang, Minecraft is hands-down the best-selling game in the world. Since it's release in 2011, Minecraft has amassed more than<span> 140 million </span> active players worldwide.</p>
+
+
+              <div class="media">
+                <ul>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <span class="media-button"> - Facebook</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <span class="media-button"> - Twitter</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        <span class="media-button"> - Google</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <span class="media-button"> - Instagram</span>
+                      </a>
+                      
+              </div>
+        </div>
+        
+    </div>
+</section>
+
+<section class="footer">
+    <div class="logo">
+        <img class="mojang" src="./images/Mojang-Studios-Logo.jpg" alt="">
+        <img class="fantasy" src="./images/fantasy-logo.svg" alt="">
+        <p>
+        <a href="#">Terms & conditions</a> |
+        <a href="#">Brand & asset guidlines</a> |
+        <a href="#">manage content</a>
+        </p>
+        <br>
+        <p class="copyright">
+            <a href="#">Privacy and cookies</a> |
+            <a href="#">Terms of use</a> |
+            <a href="#">Trademarks</a> |
+            <a href="#">About our ads</a> |
+            <a href="#">Mojang Studios Careers</a> |
+            <a href="#">Microsoft</a>
+        </p>
+    </div> 
+
+</section>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
+        crossorigin="anonymous">
+</script> 
+<script src="./javascript/main.js"></script>
+
+</html>
